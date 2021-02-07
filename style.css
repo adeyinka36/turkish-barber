@@ -1,0 +1,98 @@
+/* Theme Name : Barber
+Author : Adeyinka Giwa
+Version : 1.0 */
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.con{
+ background-image: url("./resources/blur.jpg");
+ background-position: center;
+ background-size:cover;
+ background-repeat: no-repeat;
+ display: flex;
+ justify-content:center;
+ align-items: center;
+ flex-direction: column;
+ 
+ 
+}
+.upperul{
+    display: none;
+}
+
+.phoneul{
+    display:flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:.25rem 1rem;
+
+}
+.phoneul .logo{
+    color:white;
+    font-family: 'Pacifico', cursive;
+    font-size: 2.5rem;
+}
+.phoneul .menu{
+    font-size: 3rem;
+    color:white;
+    
+}
+ .upper{
+   backdrop-filter: blur(0);
+    height:50vh;
+    width:80%;
+    background-image: url('./resources/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-bottom: 1rem;
+    
+    
+}
+
+ .upper p{
+    margin-bottom: 1rem;
+    font-family:  'Pacifico', cursive;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgba(10, 10, 10,0);
+    font-size: 2rem;
+}
+.upper h3{
+    font-size: 2.5rem;
+}
+.descriptiontext{
+   
+    color:white;
+    width: 80vw;
+    
+    
+
+}
+.descriptiontext p{
+    margin:.3rem;
+    font-size: 1.1rem;
+}
+.descriptiontext h3{
+    border-bottom: 1px solid darkgray;
+    font-size: 2rem;
+    padding:.25rem
+}
+
+.lower .image,.lower{
+    background-color: rgba(10, 10, 10,0);
+}
+.lower .image img{
+    max-width: 80vw;
+    height: 40vh;
+    
+    margin-bottom:1rem;
+}
