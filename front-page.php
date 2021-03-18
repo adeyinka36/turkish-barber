@@ -1,8 +1,17 @@
+
+
+<?php 
+if(file_exists("../../../wp-load.php")){
+
+require_once("../../../wp-load.php");
+}
+?>
+
 <?php get_header()?>
 
 <div class="con">
     <!-- home page starts -->
-   <!-- <div class="upper">
+   <div class="upper">
        <p>For the best Hair</p>
    </div>
   <div class="lower">
@@ -22,10 +31,11 @@
         <div class="waxing"></div>
         <div class="waxingtext"></div>
     </div>
-   </div> -->
+   </div>
 
    <!-- about page begins here -->
-
    
+
+
 </div>
 <?php get_footer()?>

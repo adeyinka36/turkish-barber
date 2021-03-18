@@ -10,10 +10,10 @@
 <header>
 <nav>
     <ul class="upperul">
-        <li class="barberli">Barber</li>
-        <li class="aboutli">About</li>
-        <li class="servicesli">Services</li>
-        <li class="contactli">Contact</li>
+        <li class="barberli"><a href=<?php echo home_url(); ?>>Home</a></li>
+        <li class="aboutli"><a href=<?php echo get_theme_file_uri()."/about.php"; ?>>About</a></li>
+        <li class="servicesli"><a href=<?php echo get_theme_file_uri()."/services.php"; ?>>Services</a></li>
+        
     </ul>
 
 <ul class="phoneul">
