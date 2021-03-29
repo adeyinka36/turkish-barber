@@ -40,11 +40,15 @@ a:hover{
      padding:.35rem;
      height: 3rem;
      color: white;
-     font-size: 2rem;
+     font-size: 1.5rem;
      display: flex;
      justify-content: center;
      align-items: center;
+     background-color: rgba(10, 10, 10,0);
      
+}
+.upperul li a{
+    background-color: rgba(10, 10, 10,0);
 }
 
 .phoneul{
@@ -124,10 +128,14 @@ a:hover{
     background-color: rgba(10, 10, 10,0);
 }
 .lower .image img{
-    min-width: 80vw;
+    width: 80vw;
     height: 40vh;
     
     margin-bottom:1rem;
+}
+.lower .image .image2{
+    display: none;
+    
 }
 .prices{
     margin-bottom: .5rem;
@@ -249,7 +257,7 @@ position:relative;
 }
 
 .services-con div{
-    height:65vh;
+    height:40vh;
     width:82vw;
     background-color: rgba(153,0, 10,0);
     display: flex;
@@ -273,8 +281,6 @@ position:relative;
     font-size: 2.1rem;
 }
 .services-con div h3{
-    position: absolute;
-    top: 1rem;
     z-index:2;
 }
 .services-con div p{
@@ -287,12 +293,14 @@ position:relative;
 }
 
 .service-pic{
+    display: flex;
+    flex-direction: column;
     animation: ani 1500ms ease-in;
-    position:relative;
     }
 .pic-desc{
     animation: ani2 1500ms ease-in;
     position:relative;
+    margin-bottom: 1rem;
     }
  
     
@@ -315,3 +323,109 @@ footer  .fa{
     color:white;
 }
 
+
+/* ipad media queries */
+@media screen and (min-width:600px){
+    /* service page */
+    header{
+        margin-top:.25rem;
+        margin-bottom: .5rem;
+      
+    }
+  .upperul li{
+        height:7vh;
+        font-size: 1.5rem;
+    }
+    .phoneul .logo{
+        font-size: 4rem;
+    }
+
+    .phoneul .menu{
+        font-size:4rem;
+    }
+
+    .service-pic div div{
+        font-size:1.5rem;
+    }
+    .services-con div{
+        height: 60vh;
+    }
+    .services-con div p, .services-con div h3{
+        font-size:3.5rem;
+    }
+    
+    /* about page */
+    .con-about p{
+        font-size: 2rem;
+    }
+    .con-about h3{
+        font-size: 3.5rem;
+    }
+    .con-about span{
+        font-size: 2rem;
+    }
+    .on-about p{
+        font-size: 3rem;
+    }
+
+    /* home page */
+   .descriptiontext p{
+       font-size: 2rem;
+   }
+   .descriptiontext h3{
+       font-size: 3rem;
+   }
+   .upper p{
+       font-size: 2.5rem;
+       letter-spacing: .1rem;
+   }
+}
+
+@media screen and (min-width:1024px){
+    .upper{
+        animation:none;
+        height: 60vh;
+        
+    }
+    .lower .image{
+        display:flex;
+       justify-content: space-between;
+    }
+    .lower{
+        animation: none;
+    }
+    .lower .image img{
+        height:55vh;
+        
+    }
+    .lower .image .image2{
+        display: block;
+       
+    }
+    .lower .image img {
+        width: 49%;
+    }
+    
+   /* about page */
+    .con-about .randomimg,.con-about .staff{
+       height:70vh;
+   }
+   .con-about .detail , .con-about .des-con{
+     height: 100%;
+   }
+
+
+   /* services */
+   
+   .service-pic div{
+       height: 40vh;
+       width: 50vw;
+   }
+   .service-pic {
+      top:.1rem;
+   }
+   .services-con .pic-desc{
+       height: 70vh;
+   }
+   
+}

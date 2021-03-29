@@ -15,7 +15,11 @@ require_once("../../../wp-load.php");
        <p>For the best Hair</p>
    </div>
   <div class="lower">
-       <div class="image"><img src="<?php echo get_theme_file_uri( "/resources/haircut.jpg" )?>" alt="barber"></img></div>
+       <div class="image">
+                <img src="<?php echo get_theme_file_uri( "/resources/haircut.jpg" )?>" alt="barber"></img>
+                <img class="image2" src="<?php echo get_theme_file_uri( "/resources/haircut.jpg" )?>" alt="barber"></img>
+       </div>
+       
         <div class="descriptiontext">
             <h3>Opening Times</h3>
             <p>Monday  <span>10am-8pm</span></p>

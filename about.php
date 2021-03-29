@@ -10,7 +10,7 @@
 
     </div>
     <div class="randomimg rand2"></div>
-    <div>
+    <div class="staff">
         
         <div class="detail detail1">
             <div class="desc-con">
@@ -21,7 +21,7 @@
         </div>
     </div>
     <div class="randomimg rand1"></div>
-    <div>
+    <div class="staff">
     <div class="detail detail2">
         <div class="desc-con">
             
