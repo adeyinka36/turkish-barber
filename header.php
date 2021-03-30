@@ -17,7 +17,7 @@
     </ul>
 
 <ul class="phoneul">
-  <li class="logo">Barber</li>
+  <li class="logo"><a href=<?php echo home_url();?> class="logo">Turkish Barbers</a></li>
   <li class="menu"><i class="fa fa-bars"></i></li>
 </ul>
 </nav>

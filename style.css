@@ -63,7 +63,7 @@ a:hover{
 .phoneul .logo{
     color:white;
     font-family: 'Pacifico', cursive;
-    font-size: 2.5rem;
+    font-size:1.5rem;
 }
 .phoneul .menu{
     font-size: 3rem;
@@ -131,7 +131,7 @@ a:hover{
 }
 .lower .image img{
     width: 80vw;
-    height: 40vh;
+    height: 60vh;
     
     margin-bottom:1rem;
 }
@@ -302,7 +302,7 @@ footer  .fa{
         font-size: 1.5rem;
     }
     .phoneul .logo{
-        font-size: 4rem;
+        font-size: 2.1rem;
     }
 
     .phoneul .menu{
@@ -351,11 +351,15 @@ footer  .fa{
 }
 
 @media screen and (min-width:1000px){
+    .phoneul .logo{
+      font-size:3rem;
+    }
     .upper{
         animation:none;
         height: 60vh;
         
     }
+    
     .lower .image{
         display:flex;
        justify-content: space-between;
@@ -364,7 +368,7 @@ footer  .fa{
         animation: none;
     }
     .lower .image img{
-        height:55vh;
+        height:85vh;
         
     }
     .lower .image .image2{
@@ -397,7 +401,7 @@ footer  .fa{
     }
     .linker{
         width: 50vw;
-        height:65vh;
+        height:85vh;
         color: white;
         font-size: 3rem;
         display: flex;
@@ -435,13 +439,18 @@ footer  .fa{
 
     
    /* about page */
+   .con-about{
+       text-align: center;
+   }
     .con-about .randomimg,.con-about .staff{
-       height:70vh;
+       height:80vh;
+       width: 60%;
+       margin:.25rem auto;
    }
    .con-about .detail , .con-about .des-con{
      height: 100%;
    }
-
+   
 
    /* services */
    .big {

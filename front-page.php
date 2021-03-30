@@ -16,15 +16,17 @@ require_once("../../../wp-load.php");
    </div>
   <div class="lower">
        <div class="image">
-               <div class="linker">
+               <div href=<?php echo get_theme_file_uri()."/about.php"; ?> class="linker">
                 ABOUT-US
-                <img src="<?php echo get_theme_file_uri( "/resources/haircut.jpg" )?>" alt="barber"></img>
-                
+                <a href=<?php echo get_theme_file_uri()."/about.php"; ?>>
+                <img src="<?php echo get_theme_file_uri( "/resources/cut.jpg" )?>" alt="barber"></img>
+               </a>
                </div>
-               <div class="linker">
+               <div  class="linker">
                 SERVICES
-                <img class="image2" src="<?php echo get_theme_file_uri( "/resources/haircut.jpg" )?>" alt="barber"></img>
-               
+                <a href=<?php echo get_theme_file_uri()."/services.php"; ?>>
+                <img   class="image2" src="<?php echo get_theme_file_uri( "/resources/groom.jpg" )?>" alt="barber"></img>
+                </a>
                </div>
        </div>
        <div class="contact-us">
