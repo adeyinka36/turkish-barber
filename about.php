@@ -10,19 +10,19 @@
 
     </div>
     <div class="randomimg rand2"></div>
-    <div class="staff">
-        
-        <div class="detail detail1">
-            <div class="desc-con">
+        <div class="staff">
             
-            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, numquam?</span>
-            <p>Mike Barber</p>
+            <div class="detail detail1">
+                <div class="desc-con">
+                
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, numquam?</span>
+                <p>Mike Barber</p>
+            </div>
+            </div>
         </div>
-        </div>
-    </div>
-    <div class="randomimg rand1"></div>
-    <div class="staff">
-    <div class="detail detail2">
+        <div class="randomimg rand1"></div>
+        <div class="staff">
+        <div class="detail detail2">
         <div class="desc-con">
             
             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, corrupti.</span>
